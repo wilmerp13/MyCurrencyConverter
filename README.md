@@ -24,7 +24,7 @@ Currency Converter for Alura project
 
 <h1 align="center"> Vista Previa </h1>
 
-<p align="left">
+<p align="center">
     <img width="500" src="https://user-images.githubusercontent.com/120139551/226154900-8718b52c-33b0-4e09-bef8-69406e738ef3.png">
 </p>
 
