@@ -1,4 +1,4 @@
-# ConversorMoneda
+# MyCurrencyConverter
 Currency Converter for Alura project
 
 <p align="center">
