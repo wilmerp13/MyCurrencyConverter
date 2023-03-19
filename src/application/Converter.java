@@ -1,5 +1,6 @@
 package application;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 public class Converter {
@@ -47,6 +48,8 @@ public class Converter {
         double convertionRateFromDollar= monedas.get(initCoin).getValueFromDollar();
         String goalName= monedas.get(finalCoin).getName();
         String initName= monedas.get(initCoin).getName();
+        DecimalFormat df = new DecimalFormat("#,###.##");
+        
         
         System.out.printf("You want to convert %.2f of %s to %s currency\n.",amount,
                             initName,goalName);
@@ -55,13 +58,13 @@ public class Converter {
             dollarAmount = amount;
             goalCoinAmount = dollarAmount * convertionRateToDollar;
             System.out.println("The amount in " + goalName + " is " + goalCoinAmount);
-            return Double.toString(goalCoinAmount);
+            return df.format(goalCoinAmount);
 
         } else if (initCoin != 0) {
             dollarAmount = amount * convertionRateFromDollar;
             goalCoinAmount = dollarAmount * convertionRateToDollar;
             System.out.println("The amount in " + goalName + " is " + goalCoinAmount);
-            return Double.toString(goalCoinAmount);
+            return df.format(goalCoinAmount);
         } else {
             return "Not applicable";
         }

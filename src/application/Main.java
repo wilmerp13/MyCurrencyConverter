@@ -17,7 +17,7 @@ public class Main extends Application {
 			Scene scene = new Scene(root);
 	
 //			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
-			primaryStage.setTitle("Wilmer's Program");
+			primaryStage.setTitle("My Currency Converter");
 			primaryStage.setScene(scene);
 			primaryStage.show();
 		} catch(Exception e) {
