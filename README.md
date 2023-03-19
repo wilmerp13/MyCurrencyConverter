@@ -9,7 +9,7 @@ Currency Converter for Alura project
 
 :construction: Proyecto en construcción :construction:
 
-- `Funcionalidad 1`: En la version v1.0 My Currency converter es capaz de realizar conversiones entre todas las siguientes monedas: Dolar, Yen Japones, Lempira Hondureño, Libra Esterlina y Won Sul-Coreano. - `Funcionalidad 2`: Es capaz de brindar una utilización intuitiva a través de la interface JavaFX brindando un valor redondeado a dos digitos.- 
+- `Funcionalidad 1`: En la version v1.0 My Currency converter es capaz de realizar conversiones entre todas las siguientes monedas: Dolar, Yen Japones, Lempira Hondureño, Libra Esterlina y Won Sul-Coreano. - `Funcionalidad 2`: Es capaz de brindar una utilización intuitiva a través de la interface JavaFX brindando un valor redondeado a dos digitos decimales.- 
 
 
 <p>
