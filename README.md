@@ -18,6 +18,7 @@ Currency Converter for Alura project
     <li>Java FX</li>
     <li>Java JDK 19</li>
     <li>Canva</li>
+    <li>Exchange Rates Data API</li>
 </ul>
 </p>
 
