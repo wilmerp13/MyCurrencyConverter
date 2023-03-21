@@ -11,6 +11,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JavaFX"/>
+	<classpathentry kind="lib" path="C:/Users/wilme/eclipse/java-2022-12/eclipse/plugins/json/json-20230227.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
